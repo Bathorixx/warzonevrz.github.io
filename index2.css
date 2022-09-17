@@ -1,0 +1,27 @@
+.container {
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+.v-slider-bloc {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #333;
+	height: 100vh;
+}
+
+body {
+	background-color: black;
+}
+
+.v-slider-bloc:nth-child(1){background: rgb(30, 189, 64);}
+.v-slider-bloc:nth-child(2){background: red;}
+.v-slider-bloc:nth-child(3){background: green;}
+
+p {
+	font-size: 2em;
+	color: rgb(98, 0, 255);
+}
